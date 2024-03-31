@@ -24,12 +24,6 @@
       "static/css/app/(home)/loading.css",
       "static/chunks/app/(home)/loading.js"
     ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/about/page.css",
-      "static/chunks/app/about/page.js"
-    ],
     "/list/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
