@@ -6,6 +6,12 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/(home)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(home)/page.css",
+      "static/chunks/app/(home)/page.js"
+    ],
     "/(home)/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -18,29 +24,23 @@
       "static/css/app/(home)/loading.css",
       "static/chunks/app/(home)/loading.js"
     ],
-    "/(home)/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(home)/page.css",
-      "static/chunks/app/(home)/page.js"
-    ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/about/page.css",
       "static/chunks/app/about/page.js"
     ],
-    "/list/[id]/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/list/[id]/error.css",
-      "static/chunks/app/list/[id]/error.js"
-    ],
     "/list/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/list/[id]/page.css",
       "static/chunks/app/list/[id]/page.js"
+    ],
+    "/list/[id]/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/list/[id]/error.css",
+      "static/chunks/app/list/[id]/error.js"
     ]
   }
 }
