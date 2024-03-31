@@ -1,0 +1,31 @@
+.nav {
+  background-color: rgb(184, 184, 184);
+  box-shadow: -2px -1px rgb(255, 238, 238), 2px 2px rgb(0, 0, 0);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vh;
+  margin: 0 auto;
+  padding: 5px 50px;
+}
+
+.menubox {
+  box-shadow: -2px -1px rgb(255, 238, 238), 2px 2px rgb(0, 0, 0);
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menubox:active {
+  box-shadow: inset -2px -1px rgb(255, 238, 238), inset 2px 2px rgb(0, 0, 0);
+}
+
+.menubox a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}

@@ -1,16 +1,15 @@
 import Link from 'next/link';
+import styles from './navigation.module.css';
 
 function Navigation() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link href="/">home</Link>
-        </li>
-        <li>
-          <Link href="/about">about us</Link>
-        </li>
-      </ul>
+    <nav className={styles.nav}>
+      <span className={styles.menubox}>
+        <Link href="/">home</Link>
+      </span>
+      <span className={styles.menubox}>
+        <Link href="/about">about us</Link>
+      </span>
     </nav>
   );
 }

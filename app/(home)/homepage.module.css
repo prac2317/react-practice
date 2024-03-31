@@ -1,0 +1,42 @@
+.container {
+  background-color: rgb(184, 184, 184);
+  width: 100vh;
+  margin: 0 auto;
+  box-shadow: -2px -1px rgb(255, 238, 238), 2px 2px rgb(0, 0, 0);
+}
+
+.titlebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 80px;
+  margin: 20px auto;
+  font-size: 40px;
+  font-weight: 800;
+}
+.genreboxcontainer {
+  background-color: rgb(201, 201, 201);
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vh;
+  margin: 0 auto;
+  padding: 50px;
+  box-shadow: inset -2px -1px rgb(255, 238, 238), inset 2px 2px rgb(0, 0, 0);
+}
+
+.genrebox {
+  background-color: rgb(184, 184, 184);
+  margin: 20px;
+  box-shadow: -2px -1px rgb(255, 238, 238), 2px 2px rgb(0, 0, 0);
+  height: 50px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+.genrebox:active {
+  box-shadow: inset -2px -1px rgb(255, 238, 238), inset 2px 2px rgb(0, 0, 0);
+}
